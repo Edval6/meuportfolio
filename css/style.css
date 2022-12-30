@@ -135,6 +135,11 @@ input[type="button"]{
 
 }
 
+input[type="button"]:hover{
+    background: #112BFA;
+    color: #EDEA0C;
+}
+
 .infor{
     margin-top: 80px;
     width: 100%;
