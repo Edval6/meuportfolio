@@ -187,8 +187,8 @@ input[type="button"]{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #EDEA0C;
-    margin-left: 13%;
+    background-color: transparent;
+    margin-left: 10%;
     animation: b1 2s infinite;
     animation-delay: 1s;
 }
@@ -197,36 +197,88 @@ input[type="button"]{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #112BFA;
+    background-color: transparent;
     margin-left: 53%;
+    animation: b2 2s 1;
+    animation-delay: 3s;
 }
 
 .bola3{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #EDEA0C;
-    margin-left: 93%;
+    background-color: transparent;
+    margin-left: 96%;
+    animation: b3 2s 1;
+    animation-delay: 4s;
 }
 
 .bola4{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #112BFA;
+    background-color: transparent;
     margin-left: 53%;
+    animation: b4 2s 1;
+    animation-delay: 5s;
 }
 
 .bola5{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #EDEA0C;
-    margin-left: 23%;
+    background-color: transparent;
+    margin-left: 26%;
+    animation: b5 2s 1;
+    animation-delay: 6s;
 }
 
 @keyframes b1{
-    to{
+    50%{
+        background-color: #EDEA0C;
+    }
+    100%{
+        transform: translatex(80px);
+        background-color: #112BFA;
+    }
+}
+
+@keyframes b2{
+    50%{
+        background-color: #112BFA;
+    }
+    100%{
         transform: translateY(50px);
+        background-color: #EDEA0C;
+    }
+}
+
+@keyframes b3{
+    50%{
+        background-color: #EDEA0C;
+    }
+    100%{
+        transform: translatex(-90px);
+        background-color: #112BFA;
+    }
+}
+
+@keyframes b4{
+    50%{
+        background-color: #112BFA;
+    }
+    100%{
+        transform: translateY(50px);
+        background-color: #EDEA0C;
+    }
+}
+
+@keyframes b5{
+    50%{
+        background-color: #EDEA0C;
+    }
+    100%{
+        transform: translateX(-80px);
+        background-color: #112BFA;
     }
 }
