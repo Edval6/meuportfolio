@@ -1,0 +1,35 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.apresentacao{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    padding: 10px;
+    font-size: 60px;
+    font-family: cursive;
+    color: #112BFA;
+    text-shadow: 2px 2px #EDEA0C;
+}
+
+h2{
+    padding: 10px;
+    font-size: 40px;
+    font-family: cursive;
+    color: #040b3c;
+}
+
+p{
+    padding: 10px;
+    font-size: 24px;
+    font-family: monospace;
+    color: #02051f;
+}
