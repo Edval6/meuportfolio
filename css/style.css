@@ -38,7 +38,8 @@ h2{
 h3{
     font-size: 35px;
     font-family: cursive;
-    color: #040b3c;
+    color: #112BFA;
+    text-decoration: underline #EDEA0C;
     margin-bottom: 15px;
 }
 
@@ -59,8 +60,8 @@ p{
     color: #02051f;
 }
 
-.foto{
-    box-shadow: 5px -5px;
+#foto-foto{
+    box-shadow: 5px 5px 20px #ede90cc6 ;
 }
 
 #trabalhos{
