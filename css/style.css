@@ -1,5 +1,9 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
+.container{
+    margin: 0;
+}
+
 #eu{
     margin-top: 40px;
     margin-left: auto;
@@ -53,6 +57,15 @@ h4{
     z-index: 2;
 }
 
+h5{
+    font-size: 16px;
+    font-family: monospace;
+    color: #02051f;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+}
+
 p{
     padding: 10px;
     font-size: 22px;
@@ -70,6 +83,7 @@ p{
    flex-wrap: wrap;
    justify-content: center;
    padding: 0px 10px 0px 10px;
+   background: linear-gradient(to bottom left,white, #112cfa0c);
 }
 
 .imagem{
@@ -92,4 +106,43 @@ p{
 .titulos{
     margin-top: 130px;
     margin-left: 4%;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    background: linear-gradient(to left top,white, #112cfa0c);
+    position: absolute;
+}
+
+.acao{
+    margin-left: 50px;
+}
+
+.btn{
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+input[type="button"]{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 2px #02051f;
+    box-shadow: 2px -2px #d3e5f8;
+    background: linear-gradient(to left top,#fffebc, #EDEA0C);
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 500;
+    color: #02051f;
+
+}
+
+.infor{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex: row;
+    justify-content: center;
 }
