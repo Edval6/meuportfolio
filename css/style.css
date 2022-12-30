@@ -21,7 +21,7 @@
 }
 
 h1{
-    padding: 10px;
+    padding: 5px;
     font-size: 60px;
     font-family: cursive;
     color: #112BFA;
@@ -35,13 +35,58 @@ h2{
     color: #040b3c;
 }
 
+h3{
+    font-size: 35px;
+    font-family: cursive;
+    color: #040b3c;
+    margin-bottom: 15px;
+}
+
+h4{
+    font-size: 20px;
+    font-family: cursive;
+    color: #112BFA;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 70px;
+    z-index: 2;
+}
+
 p{
     padding: 10px;
-    font-size: 24px;
+    font-size: 22px;
     font-family: monospace;
     color: #02051f;
 }
 
 .foto{
     box-shadow: 5px -5px;
+}
+
+#trabalhos{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 0px 10px 0px 10px;
+}
+
+#projecto{
+    
+}
+
+.foto-texto{
+    width: 380px;
+    height: 250px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #EDEA0C;
+    opacity: 90%;
+}
+
+.titulos{
+    margin-top: 130px;
+    margin-left: 4%;
 }
