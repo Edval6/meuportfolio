@@ -144,7 +144,7 @@ input[type="button"]{
 }
 
 .bara{
-    margin-top: 50px;
+    margin-top: 0px;
     margin-left: 10%;
     width: 100px;
     height: 10px;
@@ -279,6 +279,35 @@ input[type="button"]{
     }
     100%{
         transform: translateX(-80px);
+        background-color: #112BFA;
+    }
+}
+
+.bvertical{
+    width: 10px;
+    height: 250px;
+    background-color: #112BFA;
+    margin-top: -200px;
+    margin-left: 10%;
+}
+
+/* bolinha para imagens*/
+.bolinha{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-left: 45%;
+    animation: bol1 2s 1;
+    display: none;
+}
+
+@keyframes bol1 {
+    50%{
+        background-color: #EDEA0C;
+    }
+    100%{
+        transform: translateY(-30px);
         background-color: #112BFA;
     }
 }
