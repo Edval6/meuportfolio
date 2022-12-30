@@ -44,11 +44,11 @@ h3{
 
 h4{
     font-size: 20px;
-    font-family: cursive;
-    color: #112BFA;
+    font-family: monospace;
+    color: #EDEA0C;
     position: absolute;
     margin-top: 100px;
-    margin-left: 70px;
+    margin-left: 80px;
     z-index: 2;
 }
 
@@ -71,19 +71,21 @@ p{
    padding: 0px 10px 0px 10px;
 }
 
-#projecto{
-    
+.imagem{
+    padding-left: 20px;
+    padding-top: 30px;
 }
-
 .foto-texto{
-    width: 380px;
-    height: 250px;
+    width: 420px;
+    height: 270px;
     position: absolute;
     z-index: 1;
-    margin-left: 20px;
-    margin-top: 10px;
-    background-color: #EDEA0C;
+    margin-left: 0px;
+    background-color: #112BFA;
     opacity: 90%;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px #EDEA0C;
 }
 
 .titulos{
