@@ -371,3 +371,40 @@ li a{
     font-size: 20px;
     font-family: cursive;
 }
+
+
+#tblog{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.artigos{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 40%;
+    max-width: 40%;
+    min-height: 250px;
+    box-shadow: 2px 2px 20px #ede90c62;
+}
+
+
+span{
+    padding: 10px;
+    font-family: monospace;
+    font-size: 16px;
+    color: #02051f;
+    font-style: italic;
+    width: fit-content;
+    float: right;
+}
+
+#escrita{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    text-align: justify;
+    color: #02051f;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
