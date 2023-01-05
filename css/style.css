@@ -326,3 +326,48 @@ input[type="button"]:hover{
         background-color: #112BFA;
     }
 }
+
+/*Blog*/
+
+header{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30%;
+    padding: 15px;
+    font-size: 20px;
+    font-family: monospace;
+    color: #112BFA;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px #EDEA0C;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: #02051f;
+    font-size: 20px;
+    font-family: cursive;
+}
