@@ -62,6 +62,15 @@ h5{
     bottom: 0;
 }
 
+h6{
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 500;
+    color: #112BFA;
+    font-style: italic;
+    padding: 15px;
+}
+
 p{
     padding: 10px;
     font-size: 22px;
@@ -107,9 +116,10 @@ p{
 footer{
     width: 100%;
     height: 300px;
-    margin-top: 150px;
+    margin-top: 10%;
     background: linear-gradient(to left top,white, #112cfa0c);
-    position: absolute;
+    position: relative;
+    bottom: 0;
 }
 
 .acao{
@@ -339,22 +349,16 @@ header{
 
 .logo{
     width: 30%;
-    padding: 15px;
-    font-size: 20px;
-    font-family: monospace;
-    color: #112BFA;
     text-align: center;
-    font-style: italic;
-    text-shadow: 2px 2px #EDEA0C;
-    border-bottom: double 5px #d3e5f8;
-    border-right: double 5px #d3e5f8;
+    border-bottom: solid 5px #112BFA;
+    border-right: solid 5px #112BFA;
     border-bottom-right-radius: 10px;
 }
 
 nav{
     width: 60%;
-    border-top: double 5px #d3e5f8;
-    border-left: double 5px #d3e5f8;
+    border-top: solid 5px #EDEA0C;
+    border-left: solid 5px #EDEA0C;
     border-top-left-radius: 10px;
 }
 
