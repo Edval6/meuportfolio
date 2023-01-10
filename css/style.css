@@ -407,7 +407,7 @@ span{
     width: 100%; 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;  
+    justify-content: space-around;
 }
 
 .ler a{
@@ -420,12 +420,11 @@ span{
 #escrita{
     font-size: 21px;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 30px;
+    line-height: 40px;
     text-align: justify;
     color: #02051f;
-    padding: 10px;
+    padding: 20px;
     padding-top: 20px;
-    padding-bottom: 30px;
 }
 
 .esquerda{
@@ -470,4 +469,18 @@ span{
 #tit-cat{
     font-size: 30px;
     margin-left: 5%;
+}
+
+.conteudos{
+    width: 80%;
+    max-width: 90%;
+    min-height: 400px;
+    box-shadow: 2px 2px 20px #ede90c62;
+    float: left;
+    margin-bottom: 10%;
+}
+
+#tamanho-conteudo{
+    width: 100%;
+    max-width: 100%;
 }
