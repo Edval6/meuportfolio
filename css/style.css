@@ -427,6 +427,16 @@ span{
     padding-top: 20px;
 }
 
+#escrita-conteudo{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    text-align: justify;
+    color: #02051f;
+    padding-top: 20px;
+    margin: auto;
+    width: 80%;
+}
 .esquerda{
     float: left;
     width: 50%;
@@ -480,7 +490,11 @@ span{
     margin-bottom: 10%;
 }
 
+#tamanho-esquerda{
+    width: 80%;
+    max-width: 80%;
+}
+
 #tamanho-conteudo{
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
 }
