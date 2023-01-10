@@ -62,6 +62,13 @@ h5{
     bottom: 0;
 }
 
+#h5-posicao{
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding-top: 10%;
+}
+
 h6{
     font-size: 20px;
     font-family: monospace;
@@ -69,6 +76,10 @@ h6{
     color: #112BFA;
     font-style: italic;
     padding: 15px;
+}
+
+#h6-posicao{
+    margin-left: 10%;
 }
 
 p{
@@ -118,8 +129,6 @@ footer{
     height: 300px;
     margin-top: 10%;
     background: linear-gradient(to left top,white, #112cfa0c);
-    position: relative;
-    bottom: 0;
 }
 
 .acao{
@@ -497,4 +506,34 @@ span{
 
 #tamanho-conteudo{
     width: 80%;
+}
+
+/*Outros conteudos*/
+
+.outros{
+    float: left;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.outros-conteudos{
+    float: left;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.min-conteudos{
+    width: 20%;
+    max-width: 20%;
+    height: 100px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 20px #ede90c62;
+
 }
