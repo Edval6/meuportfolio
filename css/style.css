@@ -129,6 +129,7 @@ footer{
     height: 300px;
     margin-top: 10%;
     background: linear-gradient(to left top,white, #112cfa0c);
+    bottom: 0;
 }
 
 .acao{
@@ -144,6 +145,7 @@ input[type="button"]{
     width: 200px;
     height: 50px;
     border: none;
+    border-radius: 5px;
     box-shadow: 2px -2px #d3e5f8;
     background: linear-gradient(to left top,#fffebc, #EDEA0C);
     font-size: 18px;
@@ -438,7 +440,7 @@ span{
 
 #escrita-conteudo{
     font-size: 21px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: serif;
     line-height: 40px;
     text-align: justify;
     color: #02051f;
@@ -446,6 +448,16 @@ span{
     margin: auto;
     width: 80%;
 }
+
+#ul-normal{
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    font-size: 21px;
+}
+
+
 .esquerda{
     float: left;
     width: 50%;
@@ -524,7 +536,7 @@ span{
     min-height: 300px;
     display: flex;
     flex-wrap: wrap;
-
+    padding-bottom: 20px;
 }
 
 .min-conteudos{
