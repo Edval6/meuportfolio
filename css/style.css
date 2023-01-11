@@ -225,7 +225,7 @@ input[type="button"]:hover{
     border-radius: 50%;
     background-color: transparent;
     margin-left: 10%;
-    animation: b1 2s infinite;
+    animation: b1 4s infinite;
     animation-delay: 1s;
 }
 
