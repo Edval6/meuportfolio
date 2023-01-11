@@ -146,7 +146,7 @@ input[type="button"]{
     height: 50px;
     border: none;
     border-radius: 5px;
-    box-shadow: 2px -2px #d3e5f8;
+    box-shadow: 10px 10px 40px #d3e5f8;
     background: linear-gradient(to left top,#fffebc, #EDEA0C);
     font-size: 18px;
     font-family: monospace;
