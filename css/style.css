@@ -549,3 +549,19 @@ span{
     box-shadow: 2px 2px 20px #ede90c62;
 
 }
+
+#img-conteudo{
+    max-width: 600px;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+
+@media only screen and (max-device-width: 900px) {
+    
+    #img-conteudo{
+        margin-left: 0;
+        width: 100%;
+    }
+
+}
