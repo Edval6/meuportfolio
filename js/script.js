@@ -105,3 +105,41 @@ im6.onmouseout = function(){
     var bol = document.querySelectorAll(".bolinha")[5];
     bol.style.display = "none";
 }
+
+
+var im7 = document.querySelectorAll(".imagem")[6];
+
+im7.onmouseover = function(){
+    var titulo = document.querySelectorAll(".foto-texto")[6];
+    titulo.style.display = "block";
+
+    var bol = document.querySelectorAll(".bolinha")[6];
+    bol.style.display = "block";
+}
+
+im7.onmouseout = function(){
+    var titulo = document.querySelectorAll(".foto-texto")[6];
+    titulo.style.display = "none";
+
+    var bol = document.querySelectorAll(".bolinha")[6];
+    bol.style.display = "none";
+}
+
+
+var im8 = document.querySelectorAll(".imagem")[7];
+
+im8.onmouseover = function(){
+    var titulo = document.querySelectorAll(".foto-texto")[7];
+    titulo.style.display = "block";
+
+    var bol = document.querySelectorAll(".bolinha")[7];
+    bol.style.display = "block";
+}
+
+im8.onmouseout = function(){
+    var titulo = document.querySelectorAll(".foto-texto")[7];
+    titulo.style.display = "none";
+
+    var bol = document.querySelectorAll(".bolinha")[7];
+    bol.style.display = "none";
+}
