@@ -2,7 +2,7 @@ var im1 = document.querySelectorAll(".imagem")[0];
 
 im1.onmouseover = function(){
     var titulo = document.querySelectorAll(".foto-texto")[0];
-    titulo.style.display = "block";
+    titulo.style.display = "block"; 
 
     var bol = document.querySelectorAll(".bolinha")[0];
     bol.style.display = "block";
