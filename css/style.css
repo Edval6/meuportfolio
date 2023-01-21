@@ -74,6 +74,17 @@ h5{
     color: #02051f;
 }
 
+#h5-titulos-disciplinas{
+    font-size: 38px;
+    font-family: cursive;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+}
+
 h6{
     font-size: 20px;
     font-family: monospace;
@@ -570,4 +581,47 @@ span{
         width: 100%;
     }
 
+}
+
+/*seccao disciplinas*/
+
+.disciplinas{
+    width: 90%;
+    max-width: 90%;
+    min-height: 400px;
+    margin-top: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.modulos{
+    width: 30%;
+    height: 250px;
+    margin-top: 5%;
+    box-shadow: 2px 2px 20px #112cfaa2;
+    position: relative;
+}
+
+#link-modulos{
+    text-decoration: none;
+}
+
+#min-box-top{
+    width: 10%;
+    height: 5%;
+    background-color: #EDEA0C;
+    position: relative;
+    top: 0;
+    left: 90%;
+}
+
+#min-box-bottom{
+    width: 10%;
+    height: 5%;
+    background-color: #112BFA;
+    position: relative;
+    top: 13%;
 }
