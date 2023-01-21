@@ -670,3 +670,32 @@ span{
     top: 23%;
     left: 90%;
 }
+
+/*aula*/
+
+#aula{
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tamanho-aula{
+    width: 90%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    background-color: #02051f;
+    display: flex;
+    flex-direction: row;
+}
+
+#id-vogais{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 60px;
+    font-family: cursive;
+    color: #d3e5f8;
+}
