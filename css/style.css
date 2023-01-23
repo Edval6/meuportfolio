@@ -720,3 +720,15 @@ span{
     margin-left: auto;
     margin-right: auto;
 }
+
+@keyframes agitar {
+    100%{
+        transform: scale3d(1.5, 1.5, 1.5);
+    }
+}
+
+@keyframes girar {
+    100%{
+        transform: rotate3d(1, 1, 1, 360deg);
+    }
+}
