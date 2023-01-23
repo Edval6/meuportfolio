@@ -688,14 +688,35 @@ span{
     height: 300px;
     background-color: #02051f;
     display: flex;
+    flex-direction: column;
+}
+
+.maiusculas{
+    width: 100%;
+    display: flex;
     flex-direction: row;
+    margin-top: 2%;
+}
+
+.minusculas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
 }
 
 #id-vogais{
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 60px;
     font-family: cursive;
     color: #d3e5f8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#id-mini-vogais{
+    font-size: 60px;
+    font-family: cursive;
+    color: #d3e5f8;
+    margin-left: auto;
+    margin-right: auto;
 }
