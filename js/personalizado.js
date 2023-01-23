@@ -5,6 +5,10 @@ var Vogais = document.querySelectorAll("#id-vogais")[0];
 Vogais.addEventListener("click", function(){
     Vogais.style.animation = "girar 2s";
     this.style.color = "orange";
+
+    var audA = document.querySelector("#audA");
+    audA.setAttribute('autoplay', 'true');
+
 });
 
 var Vogais1 = document.querySelectorAll("#id-vogais")[1];

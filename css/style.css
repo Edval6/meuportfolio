@@ -685,10 +685,11 @@ span{
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
+    min-height: 300px;
     background-color: #02051f;
     display: flex;
     flex-direction: column;
+    padding-bottom: 2%;
 }
 
 .maiusculas{
@@ -711,6 +712,7 @@ span{
     color: #d3e5f8;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 #id-mini-vogais{
@@ -719,7 +721,23 @@ span{
     color: #d3e5f8;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
+
+.btn-proximo{
+    position: relative;
+    left: 85%;
+}
+
+.btn-proximo h6{
+    margin-top: 5%;
+}
+
+.btn-proximo h6 a{
+    color: #EDEA0C;
+}
+
+/*animacao das vogais*/
 
 @keyframes agitar {
     100%{
@@ -732,3 +750,5 @@ span{
         transform: rotate3d(1, 1, 1, 360deg);
     }
 }
+
+/*audios*/
