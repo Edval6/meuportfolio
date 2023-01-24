@@ -7,7 +7,8 @@ Vogais.addEventListener("click", function(){
     this.style.color = "orange";
 
     var audA = document.querySelector("#audA");
-    audA.setAttribute('autoplay', 'true');
+    audA.setAttribute('controls', 'true');
+    audA.setAttribute('loop', 'true');
 
 });
 
