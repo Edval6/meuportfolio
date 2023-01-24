@@ -709,10 +709,13 @@ span{
 #id-vogais{
     font-size: 60px;
     font-family: cursive;
+    text-align: center;
     color: #d3e5f8;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 #id-mini-vogais{
@@ -752,3 +755,6 @@ span{
 }
 
 /*audios*/
+audio{
+    width: 100px;
+}
