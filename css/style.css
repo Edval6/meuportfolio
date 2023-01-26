@@ -818,10 +818,28 @@ audio{
     font-family: cursive;
 }
 
-hr{
-    width: 80%;
-    height: 3%;
+/*Exercicio 1 Vogais*/
+
+#exe1vogais{
+    width: 90%;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
+    min-height: 300px;
     background-color: #02051f;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+}
+
+#id-vogais-exe1{
+    font-size: 60px;
+    font-family: cursive;
+    text-align: center;
+    color: #d3e5f8;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
