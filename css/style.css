@@ -852,3 +852,78 @@ audio{
     display: none;
 }
 
+/*Exercicio 2 Vogais*/
+
+#exe1vogais{
+    width: 90%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 300px;
+    background-color: #02051f;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2%;
+}
+
+#circulo-vogais{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 5px solid #112BFA;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#id-vogais-exe2{
+    font-size: 80px;
+    font-family: cursive;
+    text-align: center;
+    color: orange;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 70%;
+}
+
+#id-vogais-exe3{
+    font-size: 80px;
+    font-family: cursive;
+    text-align: center;
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: -105%;
+}
+
+#id-vogais-exe4{
+    font-size: 80px;
+    font-family: cursive;
+    text-align: center;
+    color: blue;
+    margin-left: 70%;
+    cursor: pointer;
+    margin-top: 0%;
+}
+
+#id-vogais-exe5{
+    font-size: 80px;
+    font-family: cursive;
+    text-align: center;
+    color: yellow;
+    margin-right: 70%;
+    cursor: pointer;
+    margin-top: -34%;
+}
+
+#id-vogais-exe6{
+    font-size: 80px;
+    font-family: cursive;
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: -33%;
+}
