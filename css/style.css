@@ -843,3 +843,12 @@ audio{
     display: flex;
     flex-direction: column;
 }
+
+#maiusculas2{
+    display: none;
+}
+
+#maiusculas3{
+    display: none;
+}
+
