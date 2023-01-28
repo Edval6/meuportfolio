@@ -959,3 +959,17 @@ audio{
     display: none;
     flex-direction: column;
 }
+
+#in1{
+    margin-top: -80%;
+}
+
+input[type="text"]{
+    width: 100%;
+    height: 50px;
+    border: solid 1px transparent;
+    font-size: 60px;
+    font-family: cursive;
+    text-transform: capitalize;
+    text-align: center;
+}
