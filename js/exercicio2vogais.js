@@ -368,3 +368,8 @@ vogalU.onclick = function(){
 
     }
 }
+
+var reload = document.querySelector("#reload");
+reload.onclick = function(){
+    location.reload();
+}
