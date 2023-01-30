@@ -813,6 +813,12 @@ audio{
     color: red;
 }
 
+#vog-abc{
+    font-size: 60px;
+    font-family: cursive;
+    color: #02051f;
+}
+
 #vog-a-palavra p{
     font-size: 40px;
     font-family: cursive;
