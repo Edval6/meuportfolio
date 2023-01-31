@@ -881,6 +881,23 @@ audio{
     margin-right: auto;
 }
 
+#circulo-abecedario{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 5px solid #112BFA;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 6%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: justify;
+}
+
+
 #id-vogais-exe2{
     font-size: 80px;
     font-family: cursive;
@@ -936,6 +953,15 @@ audio{
     margin-right: auto;
     cursor: pointer;
     margin-top: -33%;
+    width: fit-content;
+}
+
+#id-vogais-exe7{
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    color: orange;
+    cursor: pointer;
     width: fit-content;
 }
 
