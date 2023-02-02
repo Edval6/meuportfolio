@@ -887,11 +887,10 @@ audio{
 }
 
 #circulo-abecedario{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    min-height: 400px;
     border-radius: 5%;
-    border: 5px solid #112BFA;
-    box-shadow: 5px 5px 20px #112BFA;
+    box-shadow: 1px 1px 10px #112cfa59;
     margin-left: 4%;
     display: flex;
     flex-wrap: wrap;
@@ -962,7 +961,7 @@ audio{
 }
 
 #id-vogais-exe7{
-    font-size: 55px;
+    font-size: 40px;
     font-family: cursive;
     text-align: center;
     color: orange;
@@ -1041,4 +1040,9 @@ button{
     width: 60%;
     max-width: 60%;
     margin-left: 2%;
+    margin-top: 0%;
+}
+
+#direita-abc{
+    margin-top: 0%;
 }
