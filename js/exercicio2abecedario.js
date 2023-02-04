@@ -1969,7 +1969,7 @@ vogalU.onclick = function(){
     //console.log(x);
 
     if(x == ""){
-        espacoA.setAttribute('value', 'u');
+        espacoA.setAttribute('value', 'c');
         var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
             res.style.color = "red";
@@ -1980,7 +1980,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'c');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2004,7 +2004,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'c');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2016,10 +2016,264 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'c');
                         var res = document.querySelectorAll("#span-certo")[4];
                         
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'c');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'c');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'c');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'c');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'c');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'c');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'c');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'c');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'c');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'c');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'c');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'c');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'c');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'c');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'c');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'c');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'c');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'c');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'c');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'c');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'c');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -2044,7 +2298,7 @@ vogalU.onclick = function(){
     //console.log(x);
 
     if(x == ""){
-        espacoA.setAttribute('value', 'u');
+        espacoA.setAttribute('value', 'd');
         var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
             res.style.color = "red";
@@ -2055,7 +2309,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'd');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2067,7 +2321,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'd');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2091,10 +2345,260 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'd');
                         var res = document.querySelectorAll("#span-certo")[4];
                         
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'd');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'd');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'd');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'd');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'd');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'd');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'd');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'd');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'd');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'd');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'd');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'd');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'd');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'd');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'd');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'd');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'd');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'd');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'd');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'd');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'd');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -2114,14 +2618,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[5];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'f');
-        var res = document.querySelectorAll("#span-certo")[5];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -2129,7 +2635,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'f');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2141,7 +2647,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'f');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2154,7 +2660,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'f');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2166,10 +2672,265 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'f');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
+                        res.style.color = "red";
+                        res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'f');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'f');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'f');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'f');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'f');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'f');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'f');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'f');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'f');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'f');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'f');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'f');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'f');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'f');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'f');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'f');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'f');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'f');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'f');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'f');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'f');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -2189,14 +2950,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[6];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'g');
-        var res = document.querySelectorAll("#span-certo")[6];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -2204,7 +2967,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'g');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2216,7 +2979,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'g');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2229,7 +2992,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'g');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2241,12 +3004,264 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'g');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'g');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'g');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'g');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'g');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'g');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'g');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'g');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'g');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'g');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'g');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'g');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'g');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'g');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'g');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'g');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'g');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'g');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'g');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'g');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'g');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'g');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -2266,14 +3281,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[7];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'h');
-        var res = document.querySelectorAll("#span-certo")[7];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
 
     }
     if(x != ""){
@@ -2281,7 +3298,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'h');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2293,7 +3310,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'h');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2306,7 +3323,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'h');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2318,12 +3335,267 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'h');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'h');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'h');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'h');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'h');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'h');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'h');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'h');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'h');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'h');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'h');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'h');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'h');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'h');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'h');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'h');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'h');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'h');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'h');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'h');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'h');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'h');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -2344,14 +3616,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[9];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'j');
-        var res = document.querySelectorAll("#span-certo")[9];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -2359,7 +3633,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'j');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2371,7 +3645,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'j');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2384,7 +3658,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'j');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2396,10 +3670,268 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'j');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
+                        res.style.color = "red";
+                            res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'j');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'j');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'j');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'j');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'j');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'j');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'j');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'j');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'j');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'j');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'j');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'j');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'j');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'j');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'j');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'j');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'j');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'j');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'j');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'j');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'j');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
@@ -2419,14 +3951,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[10];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'k');
-        var res = document.querySelectorAll("#span-certo")[10];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
            
     }
     if(x != ""){
@@ -2434,7 +3968,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'k');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2446,7 +3980,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'k');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2459,7 +3993,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'k');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2471,19 +4005,275 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'k');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'k');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'k');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'k');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'k');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'k');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'k');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'k');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'k');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'k');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'k');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'k');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'k');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'k');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'k');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'k');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'k');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'k');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'k');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'k');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'k');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'k');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -2496,14 +4286,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[11];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'l');
-        var res = document.querySelectorAll("#span-certo")[11];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
            
     }
     if(x != ""){
@@ -2511,7 +4303,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'l');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2523,7 +4315,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'l');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2536,7 +4328,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'l');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2548,19 +4340,276 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'l');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'l');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'l');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'l');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'l');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'l');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'l');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'l');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'l');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'l');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'l');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'l');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'l');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'l');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'l');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'l');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'l');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'l');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'l');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'l');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'l');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'l');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -2574,14 +4623,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[12];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'm');
-        var res = document.querySelectorAll("#span-certo")[12];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -2589,7 +4640,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'm');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2601,7 +4652,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'm');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2614,7 +4665,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'm');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2626,19 +4677,277 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'm');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'm');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'm');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'm');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'm');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'm');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'm');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'm');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'm');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'm');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'm');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'm');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'm');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'm');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'm');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'm');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'm');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'm');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'm');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'm');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'm');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'm');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -2651,14 +4960,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[13];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'n');
-        var res = document.querySelectorAll("#span-certo")[13];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -2666,7 +4977,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'n');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2678,7 +4989,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'n');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2691,7 +5002,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'n');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2703,19 +5014,278 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'n');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'n');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'n');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'n');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'n');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'n');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'n');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'n');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'n');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'n');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'n');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'n');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'n');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'n');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'n');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'n');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'n');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'n');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'n');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'n');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'n');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'n');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -2728,14 +5298,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[15];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'p');
-        var res = document.querySelectorAll("#span-certo")[15];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -2743,7 +5315,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'p');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2755,7 +5327,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'p');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2768,7 +5340,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'p');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2780,19 +5352,279 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'p');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'p');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'p');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'p');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'p');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'p');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'p');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'p');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'p');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'p');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'p');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'p');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'p');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'p');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'p');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'p');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'p');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'p');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'p');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'p');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'p');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'p');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -2805,14 +5637,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[16];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'q');
-        var res = document.querySelectorAll("#span-certo")[16];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -2820,7 +5654,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'q');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2832,7 +5666,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'q');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2845,7 +5679,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'q');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2857,19 +5691,280 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'q');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'q');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'q');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'q');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'q');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'q');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'q');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'q');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'q');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'q');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'q');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'q');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'q');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                       
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'q');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'q');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'q');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'q');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'q');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'q');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'q');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'q');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'q');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -2882,13 +5977,13 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[17];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'r');
-        var res = document.querySelectorAll("#span-certo")[17];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
             
     }
@@ -2897,7 +5992,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'r');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2909,7 +6004,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'r');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2922,7 +6017,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'r');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -2934,19 +6029,281 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'r');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'r');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'r');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'r');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'r');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'r');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'r');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'r');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'r');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'r');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'r');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'r');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'r');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                       
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'r');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                           
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'r');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'r');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'r');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'r');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'r');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'r');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'r');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'r');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -2959,14 +6316,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[18];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 's');
-        var res = document.querySelectorAll("#span-certo")[18];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -2974,7 +6333,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 's');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -2986,7 +6345,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 's');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -2999,7 +6358,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 's');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -3011,19 +6370,282 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 's');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 's');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 's');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 's');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 's');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 's');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 's');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 's');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 's');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 's');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 's');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 's');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 's');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                       
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 's');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                           
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 's');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 's');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 's');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 's');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 's');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 's');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 's');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 's');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -3036,14 +6658,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[19];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 't');
-        var res = document.querySelectorAll("#span-certo")[19];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -3051,7 +6675,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 't');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -3063,7 +6687,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 't');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -3076,7 +6700,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 't');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -3088,19 +6712,283 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 't');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 't');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 't');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 't');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 't');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 't');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 't');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 't');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 't');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 't');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 't');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 't');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 't');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                       
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 't');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                           
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 't');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                                
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 't');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 't');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 't');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 't');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 't');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 't');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 't');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -3114,14 +7002,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[21];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'v');
-        var res = document.querySelectorAll("#span-certo")[21];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -3129,7 +7019,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'v');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -3141,7 +7031,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'v');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -3154,7 +7044,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'v');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -3166,19 +7056,284 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'v');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'v');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'v');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'v');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'v');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'v');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'v');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'v');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'v');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'v');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'v');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'v');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'v');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                       
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'v');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                           
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'v');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                                
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'v');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                    
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'v');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'v');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'v');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'v');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'v');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'v');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -3191,14 +7346,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[22];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'w');
-        var res = document.querySelectorAll("#span-certo")[22];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -3206,7 +7363,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'w');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -3218,7 +7375,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'w');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -3231,7 +7388,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'w');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -3243,19 +7400,285 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'w');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'w');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'w');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'w');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'w');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'w');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'w');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'w');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'w');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'w');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'w');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'w');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'w');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                       
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'w');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                           
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'w');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                                
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'w');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                    
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'w');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'w');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                            
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'w');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'w');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'w');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'w');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -3268,14 +7691,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[23];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'x');
-        var res = document.querySelectorAll("#span-certo")[23];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -3283,7 +7708,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'x');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -3295,7 +7720,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'x');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -3308,7 +7733,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'x');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -3320,19 +7745,286 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'x');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'x');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'x');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'x');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'x');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'x');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'x');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'x');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'x');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'x');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'x');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'x');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'x');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                       
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'x');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                           
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'x');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                                
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'x');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                    
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'x');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'x');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                            
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'x');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                                
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'x');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'x');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'x');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -3345,14 +8037,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[24];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'y');
-        var res = document.querySelectorAll("#span-certo")[24];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -3360,7 +8054,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'y');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -3372,7 +8066,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'y');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -3385,7 +8079,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'y');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -3397,17 +8091,285 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'y');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'y');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'y');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'y');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'y');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'y');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'y');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'y');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'y');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'y');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'y');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'y');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'y');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                       
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'y');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                           
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'y');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                                
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'y');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                    
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'y');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'y');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                            
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'y');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                                
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'y');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                    
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'y');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'y');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            res.style.color = "red";
+                                                                                                            res.textContent = "errado";
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
@@ -3420,14 +8382,16 @@ vogalU.onclick = function(){
     this.style.color = "transparent";
     
 
-    var espacoA = document.querySelectorAll("input")[25];
+    var espacoA = document.querySelectorAll("input")[0];
     var x = espacoA.value;
     //console.log(x);
 
     if(x == ""){
         espacoA.setAttribute('value', 'z');
-        var res = document.querySelectorAll("#span-certo")[25];
+        var res = document.querySelectorAll("#span-certo")[0];
             res.style.display = "block";
+            res.style.color = "red";
+            res.textContent = "errado";
             
     }
     if(x != ""){
@@ -3435,7 +8399,7 @@ vogalU.onclick = function(){
         var x = espacoE.value;
 
         if(x == ""){
-            espacoE.setAttribute('value', 'u');
+            espacoE.setAttribute('value', 'z');
             var res = document.querySelectorAll("#span-certo")[1];
             res.style.display = "block";
             res.style.color = "red";
@@ -3447,7 +8411,7 @@ vogalU.onclick = function(){
             var x = espacoI.value;
 
             if(x == ""){
-                espacoI.setAttribute('value', 'u');
+                espacoI.setAttribute('value', 'z');
                 var res = document.querySelectorAll("#span-certo")[2];
                 res.style.display = "block";
                 res.style.color = "red";
@@ -3460,7 +8424,7 @@ vogalU.onclick = function(){
                 var x = espacoO.value;
     
                 if(x == ""){
-                    espacoO.setAttribute('value', 'u');
+                    espacoO.setAttribute('value', 'z');
                     var res = document.querySelectorAll("#span-certo")[3];
                     res.style.display = "block";
                     res.style.color = "red";
@@ -3472,19 +8436,288 @@ vogalU.onclick = function(){
                     var x = espacoU.value;
         
                     if(x == ""){
-                        espacoU.setAttribute('value', 'u');
+                        espacoU.setAttribute('value', 'z');
                         var res = document.querySelectorAll("#span-certo")[4];
                         res.style.display = "block";
                         res.style.color = "red";
                         res.textContent = "errado";
                         
+                    }if(x != ""){
+                        var espacoU = document.querySelectorAll("input")[5];
+                        var x = espacoU.value;
+            
+                        if(x == ""){
+                            espacoU.setAttribute('value', 'z');
+                            var res = document.querySelectorAll("#span-certo")[5];
+                            res.style.display = "block";
+                            res.style.color = "red";
+                            res.textContent = "errado";
+                         
+                        }
+                        if(x != ""){
+                            var espacoU = document.querySelectorAll("input")[6];
+                            var x = espacoU.value;
+                
+                            if(x == ""){
+                                espacoU.setAttribute('value', 'z');
+                                var res = document.querySelectorAll("#span-certo")[6];
+                                res.style.display = "block";
+                                res.style.color = "red";
+                                res.textContent = "errado";
+                                
+                            }
+                            if(x != ""){
+                                var espacoU = document.querySelectorAll("input")[7];
+                                var x = espacoU.value;
+                    
+                                if(x == ""){
+                                    espacoU.setAttribute('value', 'z');
+                                    var res = document.querySelectorAll("#span-certo")[7];
+                                    res.style.display = "block";
+                                    res.style.color = "red";
+                                    res.textContent = "errado";
+                                    
+                                }
+                                if(x != ""){
+                                    var espacoU = document.querySelectorAll("input")[8];
+                                    var x = espacoU.value;
+                        
+                                    if(x == ""){
+                                        espacoU.setAttribute('value', 'z');
+                                        var res = document.querySelectorAll("#span-certo")[8];
+                                        res.style.display = "block";
+                                        res.style.color = "red";
+                                        res.textContent = "errado";
+                                        
+                                    }
+                                    if(x != ""){
+                                        var espacoU = document.querySelectorAll("input")[9];
+                                        var x = espacoU.value;
+                            
+                                        if(x == ""){
+                                            espacoU.setAttribute('value', 'z');
+                                            var res = document.querySelectorAll("#span-certo")[9];
+                                            res.style.display = "block";
+                                            res.style.color = "red";
+                                            res.textContent = "errado";
+                                          
+                                        }
+                                        if(x != ""){
+                                            var espacoU = document.querySelectorAll("input")[10];
+                                            var x = espacoU.value;
+                                
+                                            if(x == ""){
+                                                espacoU.setAttribute('value', 'z');
+                                                var res = document.querySelectorAll("#span-certo")[10];
+                                                res.style.display = "block";
+                                                res.style.color = "red";
+                                                res.textContent = "errado";
+                                                
+                                            }
+                                            if(x != ""){
+                                                var espacoU = document.querySelectorAll("input")[11];
+                                                var x = espacoU.value;
+                                    
+                                                if(x == ""){
+                                                    espacoU.setAttribute('value', 'z');
+                                                    var res = document.querySelectorAll("#span-certo")[11];
+                                                    res.style.display = "block";
+                                                    res.style.color = "red";
+                                                    res.textContent = "errado";
+                                                    
+                                                }
+                                                if(x != ""){
+                                                    var espacoU = document.querySelectorAll("input")[12];
+                                                    var x = espacoU.value;
+                                        
+                                                    if(x == ""){
+                                                        espacoU.setAttribute('value', 'z');
+                                                        var res = document.querySelectorAll("#span-certo")[12];
+                                                        res.style.display = "block";
+                                                        res.style.color = "red";
+                                                        res.textContent = "errado";
+                                                        
+                                                    }
+                                                    if(x != ""){
+                                                        var espacoU = document.querySelectorAll("input")[13];
+                                                        var x = espacoU.value;
+                                            
+                                                        if(x == ""){
+                                                            espacoU.setAttribute('value', 'z');
+                                                            var res = document.querySelectorAll("#span-certo")[13];
+                                                            res.style.display = "block";
+                                                            res.style.color = "red";
+                                                            res.textContent = "errado";
+                                                            
+                                                        }
+                                                        if(x != ""){
+                                                            var espacoU = document.querySelectorAll("input")[14];
+                                                            var x = espacoU.value;
+                                                
+                                                            if(x == ""){
+                                                                espacoU.setAttribute('value', 'z');
+                                                                var res = document.querySelectorAll("#span-certo")[14];
+                                                                res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
+                                                            
+                                                            }
+                                                            if(x != ""){
+                                                                var espacoU = document.querySelectorAll("input")[15];
+                                                                var x = espacoU.value;
+                                                    
+                                                                if(x == ""){
+                                                                    espacoU.setAttribute('value', 'z');
+                                                                    var res = document.querySelectorAll("#span-certo")[15];
+                                                                    res.style.display = "block";
+                                                                    res.style.color = "red";
+                                                                    res.textContent = "errado";
+                                                                    
+                                                                }
+                                                                if(x != ""){
+                                                                    var espacoU = document.querySelectorAll("input")[16];
+                                                                    var x = espacoU.value;
+                                                        
+                                                                    if(x == ""){
+                                                                        espacoU.setAttribute('value', 'z');
+                                                                        var res = document.querySelectorAll("#span-certo")[16];
+                                                                        res.style.display = "block";
+                                                                        res.style.color = "red";
+                                                                        res.textContent = "errado";
+                                                                       
+                                                                    }
+                                                                    if(x != ""){
+                                                                        var espacoU = document.querySelectorAll("input")[17];
+                                                                        var x = espacoU.value;
+                                                            
+                                                                        if(x == ""){
+                                                                            espacoU.setAttribute('value', 'z');
+                                                                            var res = document.querySelectorAll("#span-certo")[17];
+                                                                            res.style.display = "block";
+                                                                            res.style.color = "red";
+                                                                            res.textContent = "errado";
+                                                                           
+                                                                        }
+                                                                        if(x != ""){
+                                                                            var espacoU = document.querySelectorAll("input")[18];
+                                                                            var x = espacoU.value;
+                                                                
+                                                                            if(x == ""){
+                                                                                espacoU.setAttribute('value', 'z');
+                                                                                var res = document.querySelectorAll("#span-certo")[18];
+                                                                                res.style.display = "block";
+                                                                                res.style.color = "red";
+                                                                                res.textContent = "errado";
+                                                                                
+                                                                            }
+                                                                            if(x != ""){
+                                                                                var espacoU = document.querySelectorAll("input")[19];
+                                                                                var x = espacoU.value;
+                                                                    
+                                                                                if(x == ""){
+                                                                                    espacoU.setAttribute('value', 'z');
+                                                                                    var res = document.querySelectorAll("#span-certo")[19];
+                                                                                    res.style.display = "block";
+                                                                                    res.style.color = "red";
+                                                                                    res.textContent = "errado";
+                                                                                    
+                                                                                }
+                                                                                if(x != ""){
+                                                                                    var espacoU = document.querySelectorAll("input")[20];
+                                                                                    var x = espacoU.value;
+                                                                        
+                                                                                    if(x == ""){
+                                                                                        espacoU.setAttribute('value', 'z');
+                                                                                        var res = document.querySelectorAll("#span-certo")[20];
+                                                                                        res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
+                                                    
+                                                                                    }
+                                                                                    if(x != ""){
+                                                                                        var espacoU = document.querySelectorAll("input")[21];
+                                                                                        var x = espacoU.value;
+                                                                            
+                                                                                        if(x == ""){
+                                                                                            espacoU.setAttribute('value', 'z');
+                                                                                            var res = document.querySelectorAll("#span-certo")[21];
+                                                                                            res.style.display = "block";
+                                                                                            res.style.color = "red";
+                                                                                            res.textContent = "errado";
+                                                                                            
+                                                                                        }
+                                                                                        if(x != ""){
+                                                                                            var espacoU = document.querySelectorAll("input")[22];
+                                                                                            var x = espacoU.value;
+                                                                                
+                                                                                            if(x == ""){
+                                                                                                espacoU.setAttribute('value', 'z');
+                                                                                                var res = document.querySelectorAll("#span-certo")[22];
+                                                                                                res.style.display = "block";
+                                                                                                res.style.color = "red";
+                                                                                                res.textContent = "errado";
+                                                                                                
+                                                                                            }
+                                                                                            if(x != ""){
+                                                                                                var espacoU = document.querySelectorAll("input")[23];
+                                                                                                var x = espacoU.value;
+                                                                                    
+                                                                                                if(x == ""){
+                                                                                                    espacoU.setAttribute('value', 'z');
+                                                                                                    var res = document.querySelectorAll("#span-certo")[23];
+                                                                                                    res.style.display = "block";
+                                                                                                    res.style.color = "red";
+                                                                                                    res.textContent = "errado";
+                                                                                                    
+                                                                                                }
+                                                                                                if(x != ""){
+                                                                                                    var espacoU = document.querySelectorAll("input")[24];
+                                                                                                    var x = espacoU.value;
+                                                                                        
+                                                                                                    if(x == ""){
+                                                                                                        espacoU.setAttribute('value', 'z');
+                                                                                                        var res = document.querySelectorAll("#span-certo")[24];
+                                                                                                        res.style.display = "block";
+                                                                                                        res.style.color = "red";
+                                                                                                        res.textContent = "errado";
+                                                                                                        
+                                                                                                    }
+                                                                                                    if(x != ""){
+                                                                                                        var espacoU = document.querySelectorAll("input")[25];
+                                                                                                        var x = espacoU.value;
+                                                                                            
+                                                                                                        if(x == ""){
+                                                                                                            espacoU.setAttribute('value', 'z');
+                                                                                                            var res = document.querySelectorAll("#span-certo")[25];
+                                                                                                            res.style.display = "block";
+                                                                                                            
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
 
             }
 
         }
-
 
     }
 }
