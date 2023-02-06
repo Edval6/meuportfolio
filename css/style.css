@@ -584,8 +584,19 @@ span{
     float: left;
     margin-top: 2%;
     margin-left: 10%;
-    box-shadow: 2px 2px 20px #ede90c62;
+    border-top: 10px solid #EDEA0C;
+    border-left: 10px solid #EDEA0C;
+    border-right: 10px solid #112BFA;
+    border-bottom: 10px solid #112BFA;
+    border-radius: 5%;
+}
 
+.min-conteudos:hover{
+    border-top: 15px solid #EDEA0C;
+    border-left: 15px solid #EDEA0C;
+    border-right: 15px solid #112BFA;
+    border-bottom: 15px solid #112BFA;
+    border-radius: 0%;
 }
 
 #img-conteudo{
@@ -600,6 +611,11 @@ span{
     #img-conteudo{
         margin-left: 0;
         width: 100%;
+    }
+
+    .min-conteudos{
+        width: fit-content;
+        max-width: fit-content;
     }
 
 }
@@ -639,12 +655,28 @@ span{
     left: 90%;
 }
 
+#min-box-top2{
+    width: 30%;
+    height: 10%;
+    background-color: #EDEA0C;
+    position: relative;
+    top: 0;
+    left: 70%;
+}
+
 #min-box-bottom{
     width: 10%;
     height: 5%;
     background-color: #112BFA;
     position: relative;
     top: 13%;
+}
+
+#min-box-bottom2{
+    width: 30%;
+    height: 10%;
+    background-color: #112BFA;
+    position: relative;
 }
 
 @media only screen and (max-device-width: 900px) {
