@@ -647,9 +647,30 @@ span{
     top: 13%;
 }
 
+@media only screen and (max-device-width: 900px) {
+    .disciplinas{
+        flex-wrap: none;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .modulos{
+        width: 80%;
+        max-width: 90%;
+        margin-bottom: 5%;
+        box-shadow: 2px 2px 20px #112cfa38;
+
+    }
+
+    #min-box-bottom{
+        top: none;
+        background-color: transparent;
+    }
+}
+
 /*Modulos*/
 .min-conteudos-modulos{
-    width: 30%;
+    width: 20%;
     max-width: 20%;
     height: 150px;
     float: left;
@@ -674,6 +695,15 @@ span{
     position: relative;
     top: 23%;
     left: 90%;
+}
+
+@media only screen and (max-device-width: 900px) {
+.min-conteudos-modulos {
+    width: 80%;
+    max-width: 80%;
+    min-height: 200px;
+    margin-bottom: 5%;
+}
 }
 
 /*aula*/
@@ -743,6 +773,16 @@ span{
 
 .btn-proximo h6 a{
     color: #EDEA0C;
+}
+
+@media only screen and (max-device-width: 900px) {
+    .maiusculas{
+        overflow-x: auto;
+    }
+
+    .btn-proximo {
+        left: 70%;
+    }
 }
 
 /*animacao das vogais*/
@@ -1039,10 +1079,69 @@ button{
 #aula-abc{
     width: 60%;
     max-width: 60%;
-    margin-left: 2%;
+    margin-left: 2%;                
     margin-top: 0%;
 }
 
 #direita-abc{
     margin-top: 0%;
+}
+
+@media only screen and (max-device-width: 900px) {
+
+    #circulo-vogais{
+        width: 300px;
+        height: 300px;
+    }
+
+    #espacos{
+        flex-direction: none;
+        flex-wrap: wrap;
+    }
+
+    #espaco{
+        width: 15%;
+        height: 10px;
+    }
+
+    #id-vogais-exe2{
+        margin-top: 65%;
+    }
+
+    #id-vogais-exe3{
+        margin-top: -120%;
+    }
+
+    #id-vogais-exe4{
+        margin-top: -10%;
+    }
+
+    #id-vogais-exe5{
+        margin-top: -45%;
+    }
+
+    #id-vogais-exe6{
+        margin-top: -45%;
+    }
+
+    #aula-abc{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0%;
+        margin-top: 115%;
+}
+
+#direita-abc{
+    float: none;
+    width: 90%;
+    max-width: 90%;
+    margin-top: -103%;
+}
+
+#circulo-abecedario{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 100%;
+}   
+
 }
