@@ -1803,6 +1803,8 @@ vogalU.onclick = function(){
                                                                 espacoU.setAttribute('value', 'b');
                                                                 var res = document.querySelectorAll("#span-certo")[14];
                                                                 res.style.display = "block";
+                                                                res.style.color = "red";
+                                                                res.textContent = "errado";
                                                             
                                                             }
                                                             if(x != ""){
@@ -1868,6 +1870,8 @@ vogalU.onclick = function(){
                                                                                         espacoU.setAttribute('value', 'b');
                                                                                         var res = document.querySelectorAll("#span-certo")[20];
                                                                                         res.style.display = "block";
+                                                                                        res.style.color = "red";
+                                                                                        res.textContent = "errado";
                                                     
                                                                                     }
                                                                                     if(x != ""){
