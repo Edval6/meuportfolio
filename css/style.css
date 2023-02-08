@@ -86,7 +86,7 @@ h5{
 }
 
 #h5-posicao-modulos{
-    font-size: 30px;
+    font-size: 20px;
     font-family: monospace;
     letter-spacing: 5px;
     text-align: center;
@@ -720,6 +720,8 @@ span{
     margin-left: 10%;
     box-shadow: 2px 2px 20px #ede90c62;
     background-color: #EDEA0C;
+    border: solid 20px #08145e;
+    border-radius: 2%;
 }
 
 .min-conteudos-modulos-azul{
@@ -730,7 +732,43 @@ span{
     margin-top: 2%;
     margin-left: 10%;
     box-shadow: 2px 2px 20px #ede90c62;
-    background-color: #112BFA;
+    background-color: #57dcff;
+    border: solid 20px #08145e;
+    border-radius: 2%;
+}
+
+.min-conteudos-modulos-vinho{
+    width: 20%;
+    max-width: 20%;
+    height: 150px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 20px #ede90c62;
+    background-color: #cf11fa;
+    border: solid 20px #08145e;
+    border-radius: 2%;
+}
+
+.min-conteudos-modulos-laranja{
+    width: 20%;
+    max-width: 20%;
+    height: 150px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 20px #ede90c62;
+    background-color: orange;
+    border: solid 20px #08145e;
+    border-radius: 2%;
+}
+
+.verde{
+    background-color: #00ff66;
+}
+
+.amar{
+    background-color: #ffeb3b;
 }
 
 #min-box-top-left{
@@ -747,7 +785,7 @@ span{
     height: 5%;
     background-color: #112BFA;
     position: relative;
-    top: 23%;
+    top: 32%;
     left: 90%;
 }
 
@@ -767,6 +805,20 @@ span{
 }
 
 .min-conteudos-modulos-azul{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.min-conteudos-modulos-vinho{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.min-conteudos-modulos-laranja{
     width: 70%;
     max-width: 70%;
     margin-top: 10%;
@@ -829,6 +881,15 @@ span{
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+}
+
+#nums{
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    color: #d3e5f8;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-proximo{
