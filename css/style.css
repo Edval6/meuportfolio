@@ -711,6 +711,28 @@ span{
     box-shadow: 2px 2px 20px #ede90c62;
 }
 
+.min-conteudos-modulos-amarelo{
+    width: 20%;
+    max-width: 20%;
+    height: 150px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 20px #ede90c62;
+    background-color: #EDEA0C;
+}
+
+.min-conteudos-modulos-azul{
+    width: 20%;
+    max-width: 20%;
+    height: 150px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 10%;
+    box-shadow: 2px 2px 20px #ede90c62;
+    background-color: #112BFA;
+}
+
 #min-box-top-left{
     width: 10%;
     height: 5%;
@@ -736,6 +758,21 @@ span{
     min-height: 200px;
     margin-bottom: 5%;
 }
+
+.min-conteudos-modulos-amarelo{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.min-conteudos-modulos-azul{
+    width: 70%;
+    max-width: 70%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
 }
 
 /*aula*/
@@ -795,16 +832,19 @@ span{
 }
 
 .btn-proximo{
-    position: relative;
-    left: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
 }
 
 .btn-proximo h6{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .btn-proximo h6 a{
     color: #EDEA0C;
+    padding: 0px 50px 0px 50px;
 }
 
 @media only screen and (max-device-width: 900px) {
@@ -857,6 +897,7 @@ audio{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 #vog-a{
@@ -899,6 +940,18 @@ audio{
 #vog-a-palavra p{
     font-size: 40px;
     font-family: cursive;
+}
+
+#vog-ca{
+    font-size: 60px;
+    font-family: cursive;
+    color: darkslateblue;
+}
+
+@media only screen and (max-device-width: 900px) {
+    .quadro-exe{
+        margin-bottom: 15%;
+    }
 }
 
 /*Exercicio 1 Vogais*/
@@ -1177,3 +1230,5 @@ button{
 }   
 
 }
+
+/*Estilo da pagina leitura*/
