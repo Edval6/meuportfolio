@@ -882,14 +882,42 @@ span{
     margin-right: auto;
     cursor: pointer;
 }
+.quadro-numeros{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
 
-#nums{
+.nums{
+    width: 20%;
+    text-align: center;
+    color: #d3e5f8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+#nums-escritos{
     font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+    color: #00ff66;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15%;
+}
+
+#id-vogais{
+    font-size: 60px;
     font-family: cursive;
     text-align: center;
     color: #d3e5f8;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .btn-proximo{
@@ -915,6 +943,18 @@ span{
 
     .btn-proximo {
         left: 70%;
+    }
+
+    .quadro-numeros{
+        flex-wrap: none;
+        flex-direction: column;
+    }
+
+    .nums{
+        width: fit-content;
+        border-bottom: solid #02051f;
+        border-radius: 3%;
+        padding-bottom: 2%;
     }
 }
 
