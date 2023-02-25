@@ -426,6 +426,11 @@ li a{
     font-family: cursive;
 }
 
+li a:hover{
+    border-bottom: solid 4px #112BFA;
+    padding-bottom: 10px;
+}
+
 
 #tblog{
     margin-left: 10%;
