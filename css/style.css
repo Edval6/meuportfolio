@@ -640,6 +640,9 @@ span{
     margin-top: 5%;
     box-shadow: 2px 2px 20px #112cfaa2;
     position: relative;
+    border-right: double 25px #08145e;  
+    border-radius: 10px;
+    background: linear-gradient(to right, #EDEA0C, white, white, white, white, white, white, white, white, white, white, white, white, white);
 }
 
 #link-modulos{
