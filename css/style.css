@@ -995,6 +995,7 @@ audio{
     display: flex;
     flex-direction: column;
     padding-bottom: 2%;
+    border: solid 20px #092068;
 }
 
 .quadro-exe{
