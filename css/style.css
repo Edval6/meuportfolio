@@ -643,11 +643,10 @@ span{
     width: 30%;
     height: 250px;
     margin-top: 5%;
-    box-shadow: 2px 2px 20px #112cfaa2;
+    box-shadow: 2px 2px 20px #EDEA0C;
     position: relative;
-    border-right: double 25px #08145e;  
+    border: double 5px #112BFA;  
     border-radius: 10px;
-    background: linear-gradient(to right, #EDEA0C, white, white, white, white, white, white, white, white, white, white, white, white, white);
 }
 
 #link-modulos{
